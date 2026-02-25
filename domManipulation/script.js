@@ -1,5 +1,5 @@
 // 1. Dodanie nowego elementu przy ładowaniu strony
-const newElement = document.createElement('div');
+const newElement = document.createElement('button');
 newElement.textContent = "Przycisk";
 document.body.appendChild(newElement);
 
